@@ -8,6 +8,7 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ParticlesModule } from 'angular-particle';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ParticlesModule } from 'angular-particle';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ParticlesModule
+    ParticlesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
