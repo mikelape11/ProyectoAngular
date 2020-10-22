@@ -103,3 +103,19 @@
     cursor: pointer;
     background-color: rgb(16, 16, 16);
 }
+
+.imagen{
+    position: absolute;
+    margin-left: 2vw;
+    background: rgba(16, 16, 16,0.75);
+    height: 10vw;
+    width: 12vw;
+}
+
+.mapa{
+    margin-top: 22vh;
+    position: absolute;
+    background: rgba(16, 16, 16,0.75);
+    height: 20vw;
+    width: 26vw;
+}

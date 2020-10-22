@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ParticlesModule } from 'angular-particle';
 import { HttpClientModule } from '@angular/common/http';
+import { MapaComponent } from './mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     PortadaComponent,
     PerfilComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
