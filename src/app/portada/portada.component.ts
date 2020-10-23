@@ -25,22 +25,22 @@ export class PortadaComponent implements OnInit {
   myParams: object = {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 30,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#010B30"
+        "value": "#000"
       },
       "shape": {
-        "type": "circle",
+        "type": "star",
         "polygon": {
           "nb_sides": 7
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "/assets/images/katua.png",
           "width": 100,
           "height": 100
         }
@@ -56,7 +56,7 @@ export class PortadaComponent implements OnInit {
         }
       },
       "size": {
-        "value": 3,
+        "value": 10,
         "random": true,
         "anim": {
           "enable": false,

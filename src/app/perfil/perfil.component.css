@@ -57,24 +57,26 @@
     height: 62vh;
 }
 
-.imagen{
-    
+label{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
 }
 
 .campos{
-    width: 22vw;
+    width: 16vw;
     background: #FFF;
     outline: none;
     border: none;
     padding: 10px;
-    margin-top: 1vh;
+    margin-top: 1.1vh;
     border-radius: 6px;
     color: #000;
     font-style: 18px;
     margin-bottom: 1vh;
     border: none;
     border-bottom: 2px solid #222;
-    margin-left: 3vw;
+    margin-left: 10vw;
 }
 
 .volver{
@@ -106,10 +108,12 @@
 
 .imagen{
     position: absolute;
-    margin-left: 2vw;
-    background: rgba(16, 16, 16,0.75);
+    margin-left: 6vw;
     height: 10vw;
     width: 12vw;
+    display: flex;
+    justify-content: center;
+
 }
 
 .mapa{
@@ -119,3 +123,4 @@
     height: 20vw;
     width: 26vw;
 }
+

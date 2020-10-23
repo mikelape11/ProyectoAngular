@@ -39,7 +39,7 @@ export class MapaComponent implements OnInit {
     
     L.marker([51.5, -0.09], this.icon).addTo(this.map).on('click', onClick);
 
-    var lan = "Estas aqui";
+    var lan = "You're here";
 
     function onClick(e) {
       alert(this.getLatLng());
@@ -63,5 +63,7 @@ export class MapaComponent implements OnInit {
 
     this.map.addControl(controlSearch);
   }
+
+
 
 }
