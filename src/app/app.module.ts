@@ -10,6 +10,8 @@ import { RegistroComponent } from './registro/registro.component';
 import { ParticlesModule } from 'angular-particle';
 import { HttpClientModule } from '@angular/common/http';
 import { MapaComponent } from './mapa/mapa.component';
+import { PerfilAdminComponent } from './perfil-admin/perfil-admin.component';
+import { MenuPerfilComponent } from './menu-perfil/menu-perfil.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MapaComponent } from './mapa/mapa.component';
     PerfilComponent,
     LoginComponent,
     RegistroComponent,
-    MapaComponent
+    MapaComponent,
+    PerfilAdminComponent,
+    MenuPerfilComponent
   ],
   imports: [
     BrowserModule,
